@@ -1,0 +1,47 @@
+MERGE SORT PROJESİ
+Veri Yapıları ve Algoritmalar Dersi Merge Sort Projesi
+
+Proje Hakkında
+Projede sayı dizisinin merge sort yöntemiyle sıralanması gerçekleştirilmiştir.
+Verilen  dizinin sıralama aşamaları, Big O gösterimi verilmiştir.
+
+
+Proje 2 Merge sort
+
+16, 21, 11, 8, 12, 22 dizisinin sıralanması aşamaları
+
+
+i. Öncelikle sayı dizisi ikiye bölünür. Şu an elimizde iki küçük sırasız dizi var.
+
+16, 21, 11			8, 12, 22
+
+
+ii. Sonra elimizdeki her bir dizi tekrar ikiye bölünür. Şu an elimizde sırasız dört küçük dizi var.
+
+16, 21  	11		    	8, 12	  22
+
+
+iii. Sonra elimizdeki her bir dizi tekrar ikiye bölünür. Elimizde şu an altı adet sırasız veri var.
+
+ 16	  21		11			8   12  22
+
+
+iv. Elimizdeki bütün sayılar tek kalınca yine ikili halde küçükten büyüğe sıralayarak birleştirilmeye başlar. Elimizde şu an 4 tane sıralı küçük dizi var.
+
+16,21 	11		    	8,12  	22
+
+
+v. sıralayarak birleştirilmeye devam edilir. Elimizde iki tane sıralı küçük dizi var.
+
+11,16,21		  	8,12,22
+
+
+vi. Sıralayarak birleştirilir. Sayı dizimiz sıraya girmiş oldu.
+
+8, 11, 12, 16, 21, 22
+
+
+
+Big-O gösterimi 
+
+O(nlogn^2)
